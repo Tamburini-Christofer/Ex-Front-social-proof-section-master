@@ -41,11 +41,18 @@ p{
 }
 
 .label{
-    background-color: chocolate;
-    width: 50%;
+    background-color:#f7f2f8;
+    width:75%;
     height: 20%;
     border-radius: 5px;
     padding: 10px 20px;
+}
+
+.voto{
+    color: hsl(300, 43%, 22%);
+    margin-left: 20px;
+    font-weight: 700;
+
 }
 
 .label_col{
