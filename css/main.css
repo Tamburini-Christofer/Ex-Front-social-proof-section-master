@@ -11,13 +11,23 @@ body{
 
 h1{
     color: hsl(300, 43%, 22%);
-    font-size: 34px;
+    font-size: 45px;
     line-height: 36px;
     font-weight: 700;
 }
 
+h5{
+    letter-spacing: 0.8px;
+    color: hsl(300, 24%, 96%);
+}
+
 p{
-    margin: 20px 0;
+    color: hsl(300, 43%, 22%);;
+    margin: 20px 0 0 0;
+}
+
+.card p{
+    color: white;
 }
 
 .wrapper{
@@ -31,13 +41,14 @@ p{
 
 .row_up{
     display: flex;
+    
 
     width: 100%;
     height: 60%;
 }
 
 .sx_card{
-    padding: 20px 120px 20px 20px;
+    padding: 20px 120px 20px 0px;
 }
 
 .label{
@@ -78,17 +89,29 @@ p{
     justify-content: space-between;
     align-items: center;
 
+    margin: 20px 0 0 0;
     width: 100%;
     height: 90%;
-    background-color: cadetblue;
 }
 
 .card{
     border-radius: 8px;
     background-color: hsl(300, 43%, 22%);
     width: 32%;
-    height: 65%;
-    padding: 40px;
+    height: 90%;
+    padding: 40px 30px;
+}
+
+.card img{
+    float: left;
+    margin-right: 15px ;
+    border-radius: 100%;
+    max-width: 40px;
+}
+
+.verificati{
+    line-height: 20px;
+    color: hsl(333, 80%, 67%);
 }
 
 .row_down .card:first-child{
