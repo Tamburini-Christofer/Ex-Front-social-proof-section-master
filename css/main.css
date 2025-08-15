@@ -122,4 +122,71 @@ p{
     align-self: flex-end;
 }
 
+/*************************************************/
+/*Responisve*/
 
+@media screen and (max-width:380px) {
+
+        h1{
+            line-height:30px;
+            font-size: 34px;
+        }
+
+        p{
+            font-size: 16px;
+        }
+
+        .wrapper{
+            height: 100%;
+            width: 90%;
+            align-items: center;
+        }
+
+        .col {
+        width: 100%;
+        margin: 10px 0;
+        }
+
+        .sx_card {
+        padding: 0px 0px 0px 0px;
+        }
+
+        .row_up {
+        display: flex;
+
+        text-align: center;
+        width: 88%;
+        height: 100%;
+        flex-wrap: wrap;
+        }
+
+        .row_down {
+        display: block;
+        margin: 20px 0 0 0;
+        width: 100%;
+        height: 50%;
+        }
+
+        .label {
+        width: 100%;
+        height: 28%;
+        border-radius: 5px;
+        padding: 15px 0px;
+        }
+
+        .card {
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+        }
+
+        .voto{
+            display: block;
+            margin: 5px 0;
+        }
+
+
+
+
+ 
+}
